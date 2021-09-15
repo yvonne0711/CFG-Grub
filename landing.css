@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://scx2.b-cdn.net/gfx/news/hires/2017/6-studyfindsth.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  #landingcontainer{
+    background: solid !important;
+    background-color: rosybrown; 
+    padding-top: 0.5% 0% 0% 0% !important; 
+    width: 50% !important;
+    margin: 0 auto !important;
+    text-align: justify !important;
+    align-content: center;
+    
+}
+
+.text1 {
+
+    padding-top: 0.5% 0% 0% 0% !important; 
+    width: 100% !important;
+    margin: 0 auto !important;
+    text-align: justify !important;
+    align-content: center;
+
+}
+    
