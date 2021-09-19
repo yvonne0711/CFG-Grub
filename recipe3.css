@@ -1,0 +1,51 @@
+.video{
+    position: relative !important;
+    display: inline-block !important;
+    width: 40%;
+    height: 300px !important;
+    clear: right;
+}
+
+
+
+.recipe{
+    position: absolute !important;
+    display: inline-block !important;
+    width: 500px;
+    top: 100px;
+    right: 125px;
+}
+
+.burrito-description{
+    color: white;
+    font-style: italic;
+
+}
+
+.time-button{
+    background-color: green !important;
+    border: green;
+    margin: 10px;
+
+}
+
+.text-align{ 
+    background-color: white;
+    text-align: left;
+    color: black;
+    padding: 10px;
+}
+
+.ingredient-background{
+    background-color: white;
+}
+
+li{
+    display: inline-block;
+}
+
+img {
+    height:50px;
+    width: 50px;
+}
+
