@@ -1,0 +1,11 @@
+.description{
+    color: white;
+    font-style: italic;
+}
+
+.desc-button{
+    background-color: rgb(75,0,130) !important;
+    border: rgb(167, 146, 201);
+    margin: 10px;
+
+}
