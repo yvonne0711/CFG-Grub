@@ -25,6 +25,10 @@
     background-color: white;
 }
 
+.text-left {
+    text-align: left;
+}
+
 
 li{
     display: inline-block;
