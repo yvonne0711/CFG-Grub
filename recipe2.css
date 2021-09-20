@@ -2,3 +2,19 @@
     text-align: left;
 }
 
+.width100 {
+    width: 100%;
+}
+
+.ingredients {
+    height:5rem;
+     width:5rem;
+}
+
+.ingredient-background{
+    background-color: white;
+}
+
+li{
+    display: inline-block;
+}
