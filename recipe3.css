@@ -49,3 +49,55 @@ img {
     width: 50px;
 }
 
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+.tooltiptext2 {
+    visibility: hidden;
+    width: 120px;
+    background-color: lightgreen;
+    color: white;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    border: green;
+    border: 2px green solid;
+}
+
+.tooltip2:hover .tooltiptext2{
+    visibility: visible;
+}
+
+.tooltipcolor{
+    color: green !important;
+}
+  
+.tooltip3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+.tooltiptext3 {
+    visibility: hidden;
+    width: 120px;
+    background-color: lightgreen;
+    color: white;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    border: 2px green solid;
+}
+
+.tooltip3:hover .tooltiptext3{
+    visibility: visible;
+}
+
+.tooltipcolor{
+    color: green !important;
+}
