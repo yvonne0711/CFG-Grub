@@ -22,6 +22,9 @@ function calculateCheckbox() {
     if (len===6) {
         alert("Congratulations! Enjoy your meal")
     }
+    else {
+        alert("Did you do all the steps?")
+    }
 
     
   }
