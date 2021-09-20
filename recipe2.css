@@ -7,6 +7,14 @@
 }
 
 .ingredients {
-    height:0.5%;
-     width:0.5%;
+    height:5rem;
+     width:5rem;
+}
+
+.ingredient-background{
+    background-color: white;
+}
+
+li{
+    display: inline-block;
 }
