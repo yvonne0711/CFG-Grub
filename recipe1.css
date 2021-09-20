@@ -43,8 +43,10 @@ img {
 
 #checkboxes label {
     float: left;
+    color: rgb(75,0,130);
   }
-  #checkboxes ul {
+
+#checkboxes ul {
     margin: 0;
     list-style: none;
     float: left;
