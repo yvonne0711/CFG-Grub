@@ -1,6 +1,6 @@
 function myFunction() {
     // Get the checkbox
-    var checkBox = document.getElementByName("mystep6");
+    var checkBox = document.getElementsByName("mystep6");
     // Get the output text
     var text = "Yays";
   
@@ -8,6 +8,6 @@ function myFunction() {
     if (checkBox.checked == true){
       text.style.display = "block";
     } else {
-      text.style.display = "none";
+      text.style.display = "none";  
     }
   }
