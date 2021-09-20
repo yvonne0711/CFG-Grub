@@ -1,7 +1,7 @@
 function myFunction1() {
     // Get the checkbox
     var checkBox = document.getElementsByName("step6");
-    var checkBoxes = document.getElementsbyId("checkbox");
+    var checkBoxes = document.getElementbyId("checkbox");
     var len = checkBoxes.length
     // Get the output text
     var text = "Yays";
