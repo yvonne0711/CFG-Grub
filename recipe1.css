@@ -5,7 +5,7 @@
 
 .desc-button{
     background-color: rgb(75,0,130) !important;
-    border: rgb(167, 146, 201);
+    border: rgb(167, 146, 201) !important;
     margin: 10px;
 
 }
