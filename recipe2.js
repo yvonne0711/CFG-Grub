@@ -1,13 +1,17 @@
 function myFunction() {
     // Get the checkbox
-    var checkBox = document.getElementsByName("mystep6");
+    var checkBox = document.getElementsByName("step6");
+    var checkBoxes = document.getElementsbyId("checkbox");
+    var len = checkBoxes.length
     // Get the output text
     var text = "Yays";
   
     // If the checkbox is checked, display the output text
-    if (checkBox.checked == true){
-      text.style.display = "block";
-    } else {
-      text.style.display = "none";  
-    }
-  }
+    
+        if (len===6){
+            alert("Congrats! Enjoy your meal!")
+        }
+        else{
+            alert("Have you completed all the steps?");
+
+ 
