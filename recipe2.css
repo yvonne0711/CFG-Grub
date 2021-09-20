@@ -2,3 +2,11 @@
     text-align: left;
 }
 
+.width100 {
+    width: 100%;
+}
+
+.ingredients {
+    height:50rem;
+     width:50rem;
+}
