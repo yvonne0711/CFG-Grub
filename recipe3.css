@@ -101,3 +101,15 @@ img {
 .tooltipcolor{
     color: green !important;
 }
+
+figcaption{
+    color: white;
+}
+
+.accordion-style1{
+    margin: 25px;
+    width: 200px;
+    right: 50px;
+
+
+}

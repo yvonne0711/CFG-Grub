@@ -14,6 +14,4 @@ function myFunction1() {
         else{
             alert("Have you completed all the steps?");
         }
-    }
-
- 
+}
