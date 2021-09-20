@@ -1,14 +1,5 @@
-document.getElementByTagName('step6').onclick = function() {
-    // access properties using this keyword
-    if ( this.checked ) {
-        // Returns true if checked
-        calculateCheckbox();
-    } else {
-        // Returns false if not checked
-    }
-};
-
 function checksteps() {
+    alert("yay")
     // get beauty products checkboxes contianer's reference
     var el = document.getElementById('checkbox');
   
