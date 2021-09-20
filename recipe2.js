@@ -8,7 +8,7 @@ document.getElementByTagName('step6').onclick = function() {
     }
 };
 
-function calculateCheckbox() {
+function checksteps() {
     // get beauty products checkboxes contianer's reference
     var el = document.getElementById('checkbox');
   
