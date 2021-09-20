@@ -14,10 +14,11 @@ function myFunction() {
         // Get the checkbox
     
         var checkBox = document.getElementByName("step6");
-        alert("yay")
+
     
         // If the checkbox is checked, display the output text
         if (checkBox.checked == true){
+            alert("yay")
             allsteps();
           } else {
             alert("none");
