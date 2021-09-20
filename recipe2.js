@@ -1,7 +1,9 @@
 function myFunction1() {
     // Get the checkbox
     var checkBox = document.getElementsByName("step6");
-    var checkBoxes = document.getElementbyId("checkbox");
+
+    var checkBoxes = document.getElementsByClassName("checkbox");
+
     var len = checkBoxes.length
     // Get the output text
     var text = "Yays";
@@ -12,6 +14,6 @@ function myFunction1() {
             alert("Congrats! Enjoy your meal!")
         }
         else{
-            alert("Have you completed all the steps?");
+            alert("Have you completed all the steps?")
         }
 }
