@@ -25,10 +25,12 @@
     background-color: white;
 }
 
-.text-left {
-    text-align: left;
+.text-left{ 
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 10px;
 }
-
 
 li{
     display: inline-block;
