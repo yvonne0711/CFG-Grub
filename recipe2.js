@@ -1,4 +1,4 @@
-function myFunction() {
+function myFunction1() {
     // Get the checkbox
     var checkBox = document.getElementsByName("step6");
     var checkBoxes = document.getElementsbyId("checkbox");
