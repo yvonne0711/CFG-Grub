@@ -1,22 +1,15 @@
-function checksteps() {
-    alert("yay")
-    // get beauty products checkboxes contianer's reference
-    var el = document.getElementById('checkbox');
-  
-    // get beauty product input element reference in beauty products container
-    var products = el.getElementsByTagName('input');
-  
-    // get products length
-    var len = products.length;
-  
-    // call updateCost() function to onclick event on every checkbox
-    if (len===6) {
-        alert("Congratulations! Enjoy your meal")
-    }
-    else {
-        alert("Did you do all the steps?")
-    }
+function myFunction() {
+    // Get the checkbox
 
-    
-  }
+    var checkBox = document.getElementByName("step6");
+    var length = checkbox.length
+    // Get the output text
+    var text = document.getElementById("text");
 
+    // If the checkbox is checked, display the output text
+    if (checkBox.checked == true){
+        alert("yay");
+      } else {
+        alert("none");
+      }
+    }
