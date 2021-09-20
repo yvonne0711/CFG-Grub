@@ -2,7 +2,3 @@
     text-align: left;
 }
 
-.wp-block-embed {
-    min-width: 120px;
-}
-/* reduced minimum width to avoid overlap of title text with video
