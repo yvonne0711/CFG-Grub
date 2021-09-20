@@ -1,6 +1,6 @@
 function myFunction() {
     // Get the checkbox
-    var checkBox = document.getElementsByName("mystep6");
+    var checkBox = document.getElementsByName("step6");
     // Get the output text
     var text = "Yays";
   
