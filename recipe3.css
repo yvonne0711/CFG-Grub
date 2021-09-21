@@ -147,3 +147,7 @@ th, td{
 .card-background1{
     background-color: white;
 }
+
+*{
+    margin: 100px;
+}
