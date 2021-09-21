@@ -16,20 +16,3 @@
     color: white;
   }
 
-.header-button{
-  background-color: darkgreen !important;
-  border-color: darkgreen !important;
-}
-
-.header-button:hover{
-  background-color: lightgreen !important;
-  border-color: lightgreen !important;
-}
-
-.bi-cup-straw, .straw-background{
-  background-color: pink;
-}
-
-.bi-patch-question, .question-background{
-  background-color: yellow;
-}
