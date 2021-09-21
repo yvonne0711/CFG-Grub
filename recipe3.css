@@ -108,6 +108,8 @@ figcaption{
 
 .accordion{
     width: 50%;
+    border: grey;
+    border-radius: 5px;
 }
 
 /* .accordion-style1{
