@@ -18,3 +18,11 @@
 li{
     display: inline-block;
 }
+
+.accordion-style1{
+    margin: 25px;
+    width: 200px;
+    right: 50px;
+
+
+}
