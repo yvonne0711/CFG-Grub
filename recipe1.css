@@ -108,15 +108,15 @@ th, td{
 .tooltiptext2 {
     visibility: hidden;
     width: 120px;
-    background-color: lightgreen;
+    background-color: rgb(167, 146, 201);
     color: white;
     text-align: left;
     border-radius: 6px;
     padding: 5px;
     position: absolute;
     z-index: 1;
-    border: green;
-    border: 2px green solid;
+    border: rgb(75,0,130);
+    border: 2px rgb(75,0,130);
 }
 
 .tooltip2:hover .tooltiptext2{
@@ -124,7 +124,7 @@ th, td{
 }
 
 .tooltipcolor{
-    color: green !important;
+    color: rgb(75,0,130) !important;
 }
   
 .tooltip3 {
@@ -135,14 +135,14 @@ th, td{
 .tooltiptext3 {
     visibility: hidden;
     width: 120px;
-    background-color: lightgreen;
+    background-color: rgb(167, 146, 201);
     color: white;
     text-align: left;
     border-radius: 6px;
     padding: 5px;
     position: absolute;
     z-index: 1;
-    border: 2px green solid;
+    border: 2px rgb(75,0,130);
 }
 
 .tooltip3:hover .tooltiptext3{
