@@ -106,6 +106,10 @@ figcaption{
     color: white;
 }
 
+.accordion{
+    width: 50%;
+}
+
 /* .accordion-style1{
     margin: 25px;
     width: 200px;
