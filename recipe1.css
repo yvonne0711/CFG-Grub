@@ -149,6 +149,7 @@ td {
     visibility: visible;
 }
 
-.tooltipcolor{
-    color: green !important;
+
+.table-left {
+    margin-left: auto;
 }
