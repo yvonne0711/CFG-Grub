@@ -78,3 +78,77 @@ td {
 /* th, td{
     padding: 0.5rem 1rem 0;
 } */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+.tooltiptext2 {
+    visibility: hidden;
+    width: 120px;
+    background-color: lightgreen;
+    color: white;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    border: green;
+    border: 2px green solid;
+}
+
+.tooltip2:hover .tooltiptext2{
+    visibility: visible;
+}
+
+.tooltipcolor{
+    color: green !important;
+}
+  
+.tooltip3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+.tooltiptext3 {
+    visibility: hidden;
+    width: 120px;
+    background-color: lightgreen;
+    color: white;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    border: 2px green solid;
+}
+
+.tooltip3:hover .tooltiptext3{
+    visibility: visible;
+}
+
+.tooltipcolor{
+    color: green !important;
+}
