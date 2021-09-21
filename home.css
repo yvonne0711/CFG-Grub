@@ -18,12 +18,12 @@
 
 .header-button{
   background-color: darkgreen !important;
-  border-color: darkgreen;
+  border-color: darkgreen !important;
 }
 
 .header-button:hover{
-  background-color: lightgreen;
-  border-color: lightgreen;
+  background-color: lightgreen !important;
+  border-color: lightgreen !important;
 }
 
 .bi-cup-straw, .straw-background{
