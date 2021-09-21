@@ -149,6 +149,6 @@ th, td{
 }
 
 body{
-    margin: 100px;
-    padding: 100px;
+    margin: 100px !important;
+    padding: 100px !important;
 }
