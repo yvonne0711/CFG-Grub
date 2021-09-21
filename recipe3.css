@@ -107,7 +107,7 @@ figcaption{
 }
 
 .accordion{
-    width: 50%;
+    width: 100%;
     border: grey;
     border-radius: 5px;
 }
