@@ -18,16 +18,18 @@
 
 .header-button{
   background-color: darkgreen !important;
+  border-color: darkgreen;
 }
 
 .header-button:hover{
-  background-color: green;
+  background-color: lightgreen;
+  border-color: lightgreen;
 }
 
-.bi-cup-straw{
+.bi-cup-straw, .straw-background{
   background-color: pink;
 }
 
-.bi-patch-question{
+.bi-patch-question, .question-background{
   background-color: yellow;
 }
