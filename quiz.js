@@ -14,11 +14,11 @@ function quiz(){
             var countA = 0;
             var countB = 0;
             var countC = 0;
-            if (answers[i] ===  "a" || x ==="A"){
+            if (answers[i] ===  "a" || answers[i] ==="A"){
                 countA +=
-            } else if (answers[i] ===  "b" || x ==="B"){
+            } else if (answers[i] ===  "b" || answers[i] ==="B"){
                 countB +=
-            } else (answers[i] ===  "c" || x ==="C"){
+            } else (answers[i] ===  "c" || answers[i] ==="C"){
                 countC +=
             } 
      
