@@ -13,10 +13,10 @@
 .new-button-learn-more {
     color: #000;
     border-color: #f8f9fa;
-    background-color: #f8f9fa;
+    background-color: #f8f9fa !important;
   }
 .new-button-learn-more:hover {
     color: #000;
     background-color: #ffc0cb;
-    border-color: #ffc0cb;
+    border-color: #ffc0cb !important;
 }
