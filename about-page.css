@@ -20,3 +20,8 @@
     background-color: #ffc0cb;
     border-color: #ffc0cb !important;
 } */
+
+.text-purple {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
