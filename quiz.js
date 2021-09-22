@@ -1,5 +1,5 @@
 function quiz(){
-    i = 0
+    
     alert("Welcome to the quiz! Please type your answers as a,b or c.")
     var ans1 = prompt("What pasta do you feel like? a: Wheat b: Zucchini c: Wholewheat");
     var ans2 = prompt("What sauce would you be? A: Tomato B: Bechamel sauce C: Cheese sauce");
