@@ -104,3 +104,15 @@ th, td{
 .tooltipcolor{
     color: green !important;
 }
+
+.discover-content ul li {
+    text-align: center;
+  }
+.discover-content ul li {
+    margin-top: 9px;
+    padding-left: 12px;
+    list-style: none;
+    /* list-style-image: url(http://www.expertfrontend.com/icons/tick-red.png); */
+    list-style-position: inside;
+    text-align: center;
+  }
