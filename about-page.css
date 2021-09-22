@@ -9,7 +9,7 @@
     }
   }
 
-
+/* 
 .new-button-learn-more {
     color: #000;
     border-color: #f8f9fa;
@@ -19,4 +19,9 @@
     color: #000;
     background-color: #ffc0cb;
     border-color: #ffc0cb !important;
+} */
+
+.text-purple {
+  --bs-text-opacity: 1;
+  color: rgb(75,0,130) !important;
 }
