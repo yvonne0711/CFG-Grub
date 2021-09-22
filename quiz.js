@@ -1,24 +1,43 @@
 function quiz(){
     i = 0
-    var ans1 = prompt("What colour is found on 75% of the world’s flags? a: red b: blue c: white");
-    if (ans1 ===  "a" || ans1 === "A"){
-        i = i + 1
-    } 
-    var ans2 = prompt("The song 'How Far I'll Go' features in which Disney film? A: Maleficient B: Moana C: Enchanted");
-    if (ans2 ===  "b" || ans2 === "B"){
-        i = i + 1
-    } 
-    var ans3 = prompt("In tennis, what piece of fruit is found at the top of the men's Wimbledon trophy? A: Pineapple B: Apple C: Strawberry");
-    if (ans3 ===  "a" || ans3 ==="A"){
-        i = i + 1
-    } 
-    var ans4 = prompt("In which country did the Mojito cocktail originate? A: Colombia B: Portugal C: Cuba");
-    if (ans4 === "c" || ans4 === "C"){
-        i = i + 1
-    } 
-    var ans5 = prompt("Last question! Which animal name means river horse? A: Dolphin B: Hippopotamus C: Platypus");
-    if (ans5 ===  "b" || ans5 === "B"){
-        i = i + 1
-    } 
-    alert("The answers were red (found on 75% of flags), Moana (How Far I'll Gopy), Cuba (Mojito), pineapple (men's Wimbledon tro), hippopotamus (river dolphin). And your score is " + i + ".")
+    aler("Welcome to the quiz! Please type your answers as a,b or c.")
+    var ans1 = prompt("What pasta do you feel like? a: Wheat b: Zucchini c: Wholewheat");
+    var ans2 = prompt("What sauce would you be? A: Tomato B: Bechamel sauce C: Cheese sauce");
+    var ans3 = prompt("How about meat?? A: Beef B: Lamb C: Quorn");
+    var ans4 = prompt("What other fillings would you like? A: Ricotta B: Spinach  C: Pumpkin");
+    
+    const answers = [ans1, ans2, ans3, ans4]
+    console.log(answers)
+
+
+    var numOfA = answers.filter(x => x === "a" || x === "A").length;
+    var numOfB = answers.filter(x => x === "b" || x === "B").length;
+    var numOfC = answers.filter(x => x === "c" || x === "C").length;    
+    
+    const mostLetters = [numOfA,numOfB,numOfC]
+
+    temp = 0;
+
+    mostLetters.forEach((element) => {
+    if (temp < element) {
+        temp = element;
+    }
+    });
+
+    for (var i = 0; i < mostLetters.length; i++){
+        if (temp === numofA) {
+            prompt("This week you are going to find a new hobby!")
+            prompt("Thank you for visiting!")
+            return
+        } else if (temp === numofB) {
+            prompt("This week you are going to make a lot of money!")
+            prompt("Thank you for visiting!")
+            return
+        } else if (temp === numofC) {
+            prompt("This week you are going to be happy and meet lots of new friends!")
+            prompt("Thank you for visiting!")
+            return
+        }
+
+    }
 }
