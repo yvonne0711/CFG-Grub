@@ -5,7 +5,7 @@ function myFunction1() {
 
     console.log(len)
   
-        if (len===5){
+        if (len===6){
             alert("Congrats! Enjoy your meal!")
             return
         } else{
