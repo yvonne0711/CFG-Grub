@@ -16,7 +16,7 @@ function quiz(){
             var countC = 0;
             if (answers[i] ===  "a" || answers[i] ==="A"){
                 countA +=
-            } else if (answers[i] ===  "b" || answers[i] ==="B"){
+             else if (answers[i] ===  "b" || answers[i] ==="B"){
                 countB +=
             } else (answers[i] ===  "c" || answers[i] ==="C"){
                 countC +=
