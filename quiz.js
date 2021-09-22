@@ -9,12 +9,21 @@ function quiz(){
     const answers = [ans1, ans2, ans3, ans4]
     console.log(answers)
 
-
-    var numOfA = answers.filter(x => x === "a" || x === "A").length;
-    var numOfB = answers.filter(x => x === "b" || x === "B").length;
-    var numOfC = answers.filter(x => x === "c" || x === "C").length;    
     
-    const mostLetters = [numOfA,numOfB,numOfC]
+    for (i=0; i<answers.length;i++) {
+            var countA = 0;
+            var countB = 0;
+            var countC = 0;
+            if (answers[i] ===  "a" || x ==="A"){
+                countA +=
+            } else if (answers[i] ===  "b" || x ==="B"){
+                countB +=
+            } else (answers[i] ===  "c" || x ==="C"){
+                countC +=
+            } 
+     
+    
+    const mostLetters = [countA,countB,countC]
 
     temp = 0;
 
@@ -25,15 +34,15 @@ function quiz(){
     });
 
     for (var i = 0; i < mostLetters.length; i++){
-        if (temp === numofA) {
+        if (temp === countA) {
             alert("This week you are going to find a new hobby!")
             alert("Thank you for visiting!")
             return
-        } else if (temp === numofB) {
+        } else if (temp === countB) {
             alert("This week you are going to make a lot of money!")
             alert("Thank you for visiting!")
             return
-        } else if (temp === numofC) {
+        } else if (temp === countC) {
             alert("This week you are going to be happy and meet lots of new friends!")
             alert("Thank you for visiting!")
             return
@@ -41,3 +50,5 @@ function quiz(){
 
     }
 }
+
+
