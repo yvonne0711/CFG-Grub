@@ -23,5 +23,5 @@
 
 .text-purple {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgb(75,0,130) !important;
 }
