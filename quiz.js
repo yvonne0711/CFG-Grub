@@ -15,11 +15,11 @@ function quiz(){
             var countB = 0;
             var countC = 0;
             if (answers[i] ===  "a" || answers[i] ==="A"){
-                countA +=
-             else if (answers[i] ===  "b" || answers[i] ==="B"){
-                countB +=
+                countA += ;
+            } else if (answers[i] ===  "b" || answers[i] ==="B"){
+                countB += ;
             } else (answers[i] ===  "c" || answers[i] ==="C"){
-                countC +=
+                countC += ;
             } 
             }
      
