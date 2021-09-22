@@ -151,3 +151,7 @@ th, td{
 body{
     margin: 0px;
 }
+
+.recipe3-body{
+    width: 70% auto;
+}
