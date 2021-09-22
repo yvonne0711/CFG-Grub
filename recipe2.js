@@ -9,11 +9,19 @@ function myFunction1() {
     var text = "Yays";
   
     // If the checkbox is checked, display the output text
-    
-        if (len===6){
-            alert("Congrats! Enjoy your meal!")
+    var count = 0
+    for (var i = 0; i < len; i++) {
+        if (checkBoxes[i].checked) {
+            count += 1
+            console.log(count)
+        } else {
+            console.log(count)
         }
-        else{
-            alert("Have you completed all the steps?")
-        }
+    }
+
+    if (count===6){
+        alert("Congrats! Enjoy your meal!")
+    } else{
+        alert("Have you completed all the steps?")
+    }
 }
