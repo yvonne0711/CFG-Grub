@@ -21,6 +21,7 @@ function quiz(){
             } else (answers[i] ===  "c" || answers[i] ==="C"){
                 countC +=
             } 
+            }
      
     
     const mostLetters = [countA,countB,countC]
